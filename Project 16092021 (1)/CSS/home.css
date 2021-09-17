@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    background-image: url('../img/background/music.png');
+    background-size: cover;
+}
+
+.container {
+    max-height: max-content;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+}
+
+.col-10 {
+    flex: 0 0 80%;
+}
+
+.col-2 {
+    flex: 0 0 20%;
+}
+
+.left {
+    background-color: rgb(53, 36, 68);
+    height: 100%;
+    z-index: 50;
+}
+
+.left > .navbar-branch {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    height: 10%;
+}
+
+.left a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.left a img {
+    border-radius: 50%;
+    width: 70px;
+}
+
+.left .t1 {
+    border-left: 1px solid rgb(211, 200, 181);
+}
+
+.left .method > a {
+    color: rgb(211, 200, 181);
+    font-weight: bold;
+}
+
+.left .method a {
+    font-size: 15px;
+}
+
+.left .method > a:hover {
+    color: white;
+}
+
+.left .suggestion {
+    border: 1px solid rgb(211, 200, 181);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.left > .suggestion {
+    background-color: rgb(102, 50, 102);
+}
+
+.left > .suggestion > .mt-2 {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.left > .suggestion > .mb-2 {
+    color: rgb(102, 50, 102);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+}
+
+.right > .navbar {
+    background-color: rgb(30, 5, 53);
+    height: 9%;
+    z-index: 25;
+}
+
+.search {
+    border-radius: 20px;
+    height: 100%;
+}
+
+.form-inline {
+    height: 100%;
+}
+
+.active {
+    height: 100%;
+    color: white;
+    font-weight: 500;
+}
+
+.upload {
+    background-color: tomato;
+    border-radius: 20px;
+    height: 90%;
+    color: white;
+    font-weight: 500;
+}
+
+.upload:hover {
+    color: white;
+    box-shadow: 0 0 4px 2px #FF6347;
+}
+
+.content {
+    margin-top: 9%;
+}
+
+.unsetcol {
+    height: 9%;
+}
+.listslideshow {
+    padding-left: 10px;
+}
+#slideshow {
+    display: flex;
+    flex: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#slideshow img {
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 0 4px 2px;
+}
+
+
+
